@@ -713,7 +713,12 @@ img {
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
-
+.portfolio__button {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
@@ -794,7 +799,7 @@ img {
 .testimonial__icon-star {
   color: var(--first-color);
 }
-.testimonial_sub{
+.testimonial_sub {
   font-size: var(--smaller-font-size);
 }
 
